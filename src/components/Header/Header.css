@@ -1,0 +1,28 @@
+.nav {
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+.nav h2 {
+    padding: 0 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-buttons i {
+    color: #000;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 5px 0;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-buttons i:hover {
+    border-bottom: 3px solid #000;
+}
